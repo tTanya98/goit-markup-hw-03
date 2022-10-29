@@ -14,20 +14,23 @@ h3,
 p {
   margin:0;
 }
+/* Studio */
+/* Header */
 .list {
   list-style: none;
   margin: 0;
   padding: 0;
 }
 .container {
-  width: 1200px;
-  padding-left: 15px;
-  padding-right: 15px;
+  width: 1170px;
+  padding-left: auto;
+  padding-right: auto;
   margin-left: auto;
   margin-right: auto;
   outline: 1px solid tomato;
 }
 .header-container {
+  border-bottom: 1px solid #ECECEC;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -56,7 +59,6 @@ p {
 }
 .nav-list-item {
   list-style-type: none;
-  display: flex;
 }
 .nav-list-link {
   font-weight: 500;
@@ -64,7 +66,7 @@ p {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--primary-title-color);
-  text-decoration: none;
+  text-decoration: none; 
 }
 .nav-list-link:hover,
 .nav-list-link:focus {
@@ -77,6 +79,7 @@ p {
   line-height: 1.14;
   letter-spacing: 0.02em;
   text-decoration: none;
+  
 }
 .nav-list-contact {
   font-weight: 500;
@@ -90,6 +93,12 @@ p {
 .nav-list-contact:focus {
   color: #2196f3;
 }
+/* Main */
+.section{
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+/* Section Hero */
 .hero {
   background-color: #2f303a;
   text-align: center;
@@ -124,27 +133,44 @@ p {
 .hero-btn:focus{
   background-color: #188CE8;
 }
+/* Section skills */
 .skills {
+
+}
+.skills-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  
 }
 .skills-list {
+  display: flex;
+  
+  gap: 30px;
 }
+
 .skills-list-item {
   list-style-type: none;
+  
 }
+
 .skills-list-title {
- 
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--primary-title-color);
+
 }
 .skills-list-text {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--primary-text-color);
+ 
 }
+/* Section work */
 img {
   display: block;
   max-width: 100%;
@@ -161,18 +187,29 @@ img {
   text-align: center;
 }
 .work-list {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  padding-top: 50px;
+  
 }
 .work-list-item {
   list-style-type: none;
 }
+
+/* Section team */
 .team {
   background: #f5f4fa;
 }
 .team-list {
-  background-color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  padding-top: 50px;
 }
 .team-list-item {
   list-style-type: none;
+  background-color: #ffffff;
 }
 .team-list-title {
   font-weight: 500;
@@ -196,12 +233,15 @@ img {
   color: #ffffff;
 }
 .address {
+
 }
 .address-list {
+
 }
 .address-list-item {
   list-style-type: none;
   text-decoration: none;
+
 }
 .address-list-street {
   font-style: normal;
