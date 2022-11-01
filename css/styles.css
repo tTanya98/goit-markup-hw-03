@@ -37,6 +37,8 @@ img {
 }
 .header {
   border-bottom: 1px solid #ececec;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 .header-container {
   display: flex;
@@ -254,6 +256,8 @@ img {
 /* Footer */
 .footer {
   background-color: #2f303a;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 .footer-container {
   display: flex;
@@ -266,8 +270,7 @@ img {
 }
 .footer-logo,
 .logo-footer {
-  padding-top: 60px;
-  padding-bottom: 20px;
+  margin-bottom: 20px;
 }
 .address {
 }
@@ -275,7 +278,6 @@ img {
   padding-left: 0;
   padding-right: 0;
   margin: 0px;
-  padding-bottom: 60px;
 }
 .address-list-item:not(:last-child) {
   margin-bottom: 9px;
@@ -362,6 +364,8 @@ img {
   margin-top: -30px;
 }
 .img-filter-works {
+  border-left: 1px solid #eeeeee;
+  border-right: 1px solid #eeeeee;
   border-bottom: 1px solid #eeeeee;
   width: 100%;
   height: 110px;
