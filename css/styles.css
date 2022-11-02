@@ -159,7 +159,6 @@ img {
 }
 .skills-list {
   display: flex;
-  justify-content: space-between;
   gap: 30px;
   padding-left: 0;
   padding-right: 0;
@@ -167,6 +166,7 @@ img {
 }
 .skills-list-item {
   list-style-type: none;
+  width: 270px;
 }
 
 .skills-list-title {
